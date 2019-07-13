@@ -1,0 +1,5 @@
+-- TP-Link
+
+device('tp-link-td-w8970-v1.0', 'TDW8970', {
+	packages = '-wpad-mini', -- clashes with hostapd-mini
+})
